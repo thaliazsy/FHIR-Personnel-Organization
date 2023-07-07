@@ -1,0 +1,85 @@
+{
+    "resourceType": "Practitioner",
+    "id": "N10000001",
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v2-0203.html",
+                        "code": "NI",
+                        "display": "National unique individual identifier"
+                    }
+                ]
+            },
+            "system": "http://www.moi.gov.tw/",
+            "value": "P123456789"
+        },
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v2-0203.html",
+                        "code": "MD",
+                        "display": "Medical License number"
+                    }
+                ]
+            },
+            "system": "https://gov.tw/medical-license-number",
+            "value": "N10000001"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "text": "Olivia Lee",
+            "use": "official"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+886911222333"
+        },
+        {
+            "system": "email",
+            "value": "olivialee@gmail.com"
+        }
+    ],
+    "address": {
+        "line": [
+            "花蓮市中山路200號"
+        ]
+    },
+    "gender": "female",
+    "birthDate": "1945-01-01",
+    "qualification": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "STR-KKI",
+                        "display": "Surat Tanda Registrasi Dokter",
+                        "system": "http://terminology.kemkes.go.id/v1-0302"
+                    }
+                ]
+            },
+            "identifier": [
+                {
+                    "system": "https://fhir.kemkes.go.id/id/str-kki-number",
+                    "use": "official",
+                    "value": "2938/28377/STR/00001"
+                }
+            ],
+            "issuer": {
+                "display": "Konsil Kedokteran Indonesia",
+                "reference": "Organization/10000003"
+            },
+            "period": {
+                "end": "2023-01-01",
+                "start": "1995-01-01"
+            }
+        }
+    ]
+}

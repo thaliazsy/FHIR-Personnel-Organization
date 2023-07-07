@@ -1,0 +1,59 @@
+{
+    "resourceType": "PractitionerRole",
+    "active": true,
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v2-0203.html",
+                        "code": "EI",
+                        "display": "Employee number"
+                    }
+                ]
+            },
+            "system": "Organization/1145010010",
+            "value": "19001"
+        }
+    ],
+    "code": [
+        {
+            "coding": [
+                {
+                    "code": "doctor",
+                    "display": "Doctor",
+                    "system": "http://terminology.hl7.org/CodeSystem/practitioner-role"
+                }
+            ]
+        }
+    ],
+    "organization": {
+        "reference": "Organization/4630"
+    },
+    "practitioner": {
+        "display": "Olivia Lee",
+        "reference": "Practitioner/N10000001"
+    },
+    "specialty": [
+        {
+            "coding": [
+                {
+                    "code": "02.AC",
+                    "display": "胸腔內科",
+                    "system": "https://nhird.nhri.edu.tw/file_data/func_type.htm"
+                }
+            ]
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "use": "mobile",
+            "value": "+886911222333"
+        },
+        {
+            "system": "email",
+            "value": "olivialee@hualientch.com"
+        }
+    ]
+}

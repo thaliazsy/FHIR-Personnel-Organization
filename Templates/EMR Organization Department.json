@@ -1,0 +1,58 @@
+{
+    "resourceType": "Organization",
+    "identifier": [
+        {
+            "system": "Organization/1145010010",
+            "use": "official",
+            "value": "R220001"
+        }
+    ],
+    "active": true,
+    "type": [
+        {
+            "coding": [
+                {
+                    "code": "dept",
+                    "display": "Hospital Department",
+                    "system": "http://terminology.hl7.org/CodeSystem/organization-type"
+                }
+            ]
+        }
+    ],
+    "name": "胸腔內科",
+    "contact": [
+        {
+            "purpose": {
+                "system": "http://terminology.hl7.org/CodeSystem/contactentity-type",
+                "code": "ADMIN",
+                "display": "Administrative"
+            },
+            "name": {
+                "text": "張書記"
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "03-8561825 分機 15083 或 13559"
+                },
+                {
+                    "system": "url",
+                    "value": "https://hlm.tzuchi.com.tw/pulm/"
+                }
+            ],
+            "address": {
+                "line": [
+                    "花蓮市中央路三段707號",
+                    "花蓮慈濟醫院大愛二樓(胸腔內科衛教室)"
+                ],
+                "city": "花蓮市",
+                "district": "花蓮縣",
+                "postalCode": "970",
+                "country": "TW"
+            }
+        }
+    ],
+    "partOf": {
+        "reference": "Organization/Org-1145010010"
+    }
+}

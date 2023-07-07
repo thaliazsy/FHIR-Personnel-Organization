@@ -1,0 +1,58 @@
+{
+    "resourceType": "Patient",
+    "identifier": [
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v2-0203.html",
+                        "code": "NI",
+                        "display": "National unique individual identifier"
+                    }
+                ]
+            },
+            "system": "http://www.moi.gov.tw/",
+            "value": "A123456789"
+        },
+        {
+            "type": {
+                "coding": [
+                    {
+                        "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v2-0203.html",
+                        "code": "MR",
+                        "display": "Medical record number"
+                    }
+                ]
+            },
+            "system": "Organization/1145010010",
+            "value": "A123456789"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "text": "John Smith"
+        }
+    ],
+    "telecom": [
+        {
+            "system": "phone",
+            "value": "+886-912345678"
+        },
+        {
+            "system": "email",
+            "value": "johnsmith@gmail.com"
+        }
+    ],
+    "gender": "male",
+    "birthDate": "1945-11-11",
+    "address": {
+        "line": [
+            "花蓮市中山路1號"
+        ]
+    },
+    "managingOrganization": {
+        "reference": "Organization/Org-1145010010",
+        "display": "佛教慈濟醫療財團法人花蓮慈濟醫院"
+    }
+}
